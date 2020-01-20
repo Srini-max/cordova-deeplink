@@ -1,12 +1,12 @@
 /**
-	com.lampa.startapp, ver. 6.1.6
-	https://github.com/lampaa/com.lampa.startapp
+	com.max.deeplink, ver. 6.1.6
+	https://github.com/Srini-max/deeplink-cordova-tst
 	
 	Phonegap plugin for check or launch other application in android device (iOS support).
-	bug tracker: https://github.com/lampaa/com.lampa.startapp/issues
+	bug tracker: https://github.com/Srini-max/deeplink-cordova-tst/issues
 */
 
-package com.lampa.startapp;
+package com.max.deeplink;
 
 import android.content.Intent;
 import android.util.Log;
