@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-	id="com.lampa.startapp"
+	id="com.max.deeplink"
 	version="6.1.6">
 
     <name>startApp</name>
-    <description>Phonegap plugin for check or launch other application in android device.</description>
+    <description>cordova plugin for check or launch other application in android & iOS device.</description>
     <license>MIT</license>
-    <keywords>cordova,startapp,lampa</keywords>
+    <keywords>cordova,startapp</keywords>
 
     <js-module src="www/startApp.js" name="startapp">
         <merges target="startApp" />
@@ -17,12 +17,12 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="startApp">
-                <param name="android-package" value="com.lampa.startapp.startApp"/>
+                <param name="android-package" value="com.max.deeplink.startApp"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/startApp.java" target-dir="src/com/lampa/startapp" />
-        <source-file src="src/android/Assets.java" target-dir="src/com/lampa/startapp" />
+        <source-file src="src/android/startApp.java" target-dir="src/com/max/deeplink" />
+        <source-file src="src/android/Assets.java" target-dir="src/com/max/deeplink" />
         <source-file src="src/android/res/xml/file_paths.xml" target-dir="res/xml" />
     </platform>
 
