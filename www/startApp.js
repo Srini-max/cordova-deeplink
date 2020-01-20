@@ -1,9 +1,9 @@
 /**
-	com.lampa.startapp, ver. 6.1.4
-	https://github.com/lampaa/com.lampa.startapp
+	com.max.deeplink, ver. 6.1.4
+	https://github.com/Srini-max/deeplink-cordova-tst
 	
 	Phonegap plugin for check or launch other application in android device (iOS support).
-	bug tracker: https://github.com/lampaa/com.lampa.startapp/issues
+	bug tracker: https://github.com/Srini-max/deeplink-cordova-tst/issues
 */
 
 var exec = require('cordova/exec');
@@ -12,7 +12,7 @@ module.exports = {
 	/** 
 	 * Set application params
 	 *
-	 * @param {Mixed} params				params, view documentation https://github.com/lampaa/com.lampa.startapp
+	 * @param {Mixed} params				params
 	 * @param {Mixed} extra   				Extra fields
 	 * @param {Function} errorCallback		The callback that is called when an error occurred when the program starts.
 	 *
