@@ -4,6 +4,5 @@
 
 - (void)check:(CDVInvokedUrlCommand*)command;
 - (void)start:(CDVInvokedUrlCommand*)command;
-- (void)go:(CDVInvokedUrlCommand*)command;
 
 @end
