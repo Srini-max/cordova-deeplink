@@ -39,6 +39,7 @@
 		 <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
 		    <array>
 			<string>Test</string>
+			<string>com.gems.gcapplepay</string>    
 		    </array>
 		</config-file>
 	</platform>
