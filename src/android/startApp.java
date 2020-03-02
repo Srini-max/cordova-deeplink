@@ -1,11 +1,11 @@
 /**
-	com.max.deeplink, ver. 6.1.6
-	https://github.com/Srini-max/deeplink-cordova-tst
+	com.gems.deeplink, ver. 6.1.6
+	https://github.com/Srini-max/cordova-deeplink
 	
 	Phonegap plugin for check or launch other application in android device (iOS support).
-	bug tracker: https://github.com/Srini-max/deeplink-cordova-tst/issues
+	bug tracker: https://github.com/Srini-max/cordova-deeplink/issues
 */
-package com.max.deeplink;
+package com.gems.deeplink;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.PluginResult;
