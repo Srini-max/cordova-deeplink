@@ -38,10 +38,9 @@
 		<source-file src="src/ios/startApp.m"/>
 		 <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
 		    <array>
-			<string>Test</string>
+			<string>zoomus</string>
 			<string>com.gems.gcapplepay</string>    
 		 	<string>com.gems.classroom</string>
-			 <string>zoomus</string>
 		    </array>
 		</config-file>
 	</platform>
