@@ -30,7 +30,7 @@ public class startApp extends Assets {
 	private HashMap<Integer, BroadcastReceiver> broadcastReceiverHashMap = new HashMap<Integer, BroadcastReceiver>();
 	private CallbackContext callbackContext;
     /**
-     * Executes the request and returns PluginResult.
+     * Exe cutes the request and returns PluginResult.
      *
      * @param action            The action to execute.
      * @param args              JSONArray of arguments for the plugin.
