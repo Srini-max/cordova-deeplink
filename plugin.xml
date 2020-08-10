@@ -41,6 +41,7 @@
 			<string>Test</string>
 			<string>com.gems.gcapplepay</string>    
 		 	<string>com.gems.classroom</string>
+			 <string>zoomus</string>
 		    </array>
 		</config-file>
 	</platform>
